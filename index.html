@@ -15,6 +15,11 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body>
@@ -84,14 +89,54 @@
                         <h3>Portfolio</h3>
                         <ul class="space-bottom white-box">
                             <li class="space-bottom-sub">
+                                <div class="image" onclick="handleClick(this, event)" data-img-url="img/hellobus.png" style="background-image: url(&quot;img/hellobus.png&quot;);"></div>
+                            </li>
+                            <li><a href="https://www.hellobus.nl/" target="_blank" class="dark">HelloBUS</a></li>
+                            <li>A digital platform for booking bus services online.</li>
+                            <li class="tech-stack">
+                                <div class="card mn-margin-r"><i class="fa-brands fa-symfony"></i> <span>PHP Symfony</span></div>
+                                <div class="card mn-margin-r">> <span>TailwindCSS</span></div>
+                                <div class="card mn-margin-r">> <span>MySQL</span></div>
+                            </li>
+                        </ul>
+                        <ul class="space-bottom white-box">
+                            <li class="space-bottom-sub">
+                                <div class="image" onclick="handleClick(this, event)" data-img-url="img/learnly.png" style="background-image: url(&quot;img/learnly.png&quot;);"></div>
+                            </li>
+                            <li>Learnly</li>
+                            <li>An online education platform primarily aimed at Dutch students, utilizing artificial intelligence for student evaluation.</li>
+                            <li class="tech-stack">
+                                <div class="card mn-margin-r"><i class="fa-brands fa-vuejs"></i> <span>Vue Js</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>Python DJango</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>DJango Rest Framework</span></div>
+                                <div class="card mn-margin-r">> <span>PostgreSQL</span></div>
+                                <div class="card mn-margin-r">> <span>OpenAI</span></div>
+                                <div class="card mn-margin-r">> <span>LMS</span></div>
+                            </li>
+                        </ul>
+                        <ul class="space-bottom white-box">
+                            <li class="space-bottom-sub">
+                                <div class="image" onclick="handleClick(this, event)" data-img-url="img/rentduck.png" style="background-image: url(&quot;img/rentduck.png&quot;);"></div>
+                            </li>
+                            <li><a href="https://www.rentduck.com/" target="_blank" class="dark">Rentduck</a></li>
+                            <li>An e-commerce application facilitating the leasing and rental of residential properties, office spaces, and condominiums.</li>
+                            <li class="tech-stack">
+                                <div class="card mn-margin-r"><i class="fa-brands fa-vuejs"></i> <span>Vue Js</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>Python DJango</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>DJango Rest Framework</span></div>
+                                <div class="card mn-margin-r">> <span>MySQL</span></div>
+                            </li>
+                        </ul>
+                        <ul class="space-bottom white-box">
+                            <li class="space-bottom-sub">
                                 <div class="image" onclick="handleClick(this, event)" data-img-url="img/utomik.png" style="background-image: url(&quot;img/utomik.png&quot;);"></div>
                             </li>
                             <li><a href="https://www.utomik.com" target="_blank" class="dark">Utomik</a></li>
                             <li>PC gaming subscription service</li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-angular"></i><span>AngularJs</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i><span>Python DJango</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i><span>DJango Rest Framework</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-angular"></i> <span>AngularJs</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>Python DJango</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>DJango Rest Framework</span></div>
                                 <div class="card mn-margin-r">><span>MySQL</span></div>
                             </li>
                         </ul>
@@ -102,10 +147,10 @@
                             <li><a href="https://www.dealsuite.com/en" target="_blank" class="dark">Dealsuite</a></li>
                             <li>M&A Sourcing</li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i><span>Python DJango</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i><span>Python Tornado</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i><span>Python Celery</span></div>
-                                <div class="card mn-margin-r">><span>PostgreSQL</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>Python DJango</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>Python Tornado</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-python"></i> <span>Python Celery</span></div>
+                                <div class="card mn-margin-r">> <span>PostgreSQL</span></div>
                             </li>
                         </ul>
                         <ul class="space-bottom white-box">
@@ -115,8 +160,8 @@
                             <li><a href="http://patientbubble.com" target="_blank" class="dark">PatientBubble</a></li>
                             <li>Medical Services</li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-angular"></i><span>Angular</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i><span>PHP Laravel</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-angular"></i> <span>Angular</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i> <span>PHP Laravel</span></div>
                                 <div class="card mn-margin-r">><span>MySQL</span></div>
                             </li>
                         </ul>
@@ -129,12 +174,12 @@
                                 and basic accounting for a Dutch telecommunication company.
                             </li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-react"></i><span>React</span></div>
-                                <div class="card mn-margin-r">><span>React-Redux</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i><span>PHP Laravel</span></div>
-                                <div class="card mn-margin-r">><span>MySQL</span></div>
-                                <div class="card mn-margin-r">><span>Socket.IO</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-react"></i> <span>React</span></div>
+                                <div class="card mn-margin-r">> <span>React-Redux</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-bootstrap"></i> <span>Bootstrap</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i> <span>PHP Laravel</span></div>
+                                <div class="card mn-margin-r">> <span>MySQL</span></div>
+                                <div class="card mn-margin-r">> <span>Socket.IO</span></div>
                             </li>
                         </ul>
                         <ul class="space-bottom white-box">
@@ -144,11 +189,11 @@
                             <li><a href="https://my.fiber.nl" target="_blank" class="dark">My Fiber NL</a></li>
                             <li>A client-focused extension of Grid.F2X.NL for the purpose of billing.</li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-vuejs"></i><span>Vue JS</span></div>
-                                <div class="card mn-margin-r">><span>VueX</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i><span>PHP Laravel</span></div>
-                                <div class="card mn-margin-r">><span>MySQL</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-vuejs"></i> <span>Vue JS</span></div>
+                                <div class="card mn-margin-r">> <span>VueX</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-bootstrap"></i> <span>Bootstrap</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i> <span>PHP Laravel</span></div>
+                                <div class="card mn-margin-r">> <span>MySQL</span></div>
                             </li>
                         </ul>
                         <ul class="space-bottom white-box">
@@ -158,8 +203,8 @@
                             <li><a href="https://www.grip-facility.com/en/" target="_blank" class="dark">Grip Facility</a></li>
                             <li>Digital facility contract manager</li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-symfony"></i><span>PHP Symfony</span></div>
-                                <div class="card mn-margin-r">><span>MySQL</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-symfony"></i> <span>PHP Symfony</span></div>
+                                <div class="card mn-margin-r">> <span>MySQL</span></div>
                             </li>
                         </ul>
                         <ul class="space-bottom white-box">
@@ -169,8 +214,8 @@
                             <li><a href="https://play.google.com/store/apps/details?id=com.meralco.phone.move&hl=en&gl=US" target="_blank" class="dark">Meralco Mobile</a></li>
                             <li>App gives customers the power to access to their Meralco account 24/7</li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-angular"></i><span>AngularJs</span></div>
-                                <div class="card mn-margin-r">><span>Cordova</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-angular"></i> <span>AngularJs</span></div>
+                                <div class="card mn-margin-r">> <span>Cordova</span></div>
                             </li>
                         </ul>
                         <ul class="space-bottom white-box">
@@ -180,13 +225,13 @@
                             <li>Qchoo Mobile</li>
                             <li>Emergency messaging app</li>
                             <li class="tech-stack">
-                                <div class="card mn-margin-r"><i class="fa-brands fa-react"></i><span>ReactNative</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i><span>PHP Laravel</span></div>
-                                <div class="card mn-margin-r"><i class="fa-brands fa-node"></i><span>Node</span></div>
-                                <div class="card mn-margin-r">><span>ExpressJs</span></div>
-                                <div class="card mn-margin-r">><span>Socket.IO</span></div>
-                                <div class="card mn-margin-r">><span>MySQL</span></div>
-                                <div class="card mn-margin-r">><span>MongoDB</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-react"></i> <span>ReactNative</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-laravel"></i> <span>PHP Laravel</span></div>
+                                <div class="card mn-margin-r"><i class="fa-brands fa-node"></i> <span>Node</span></div>
+                                <div class="card mn-margin-r">> <span>ExpressJs</span></div>
+                                <div class="card mn-margin-r">> <span>Socket.IO</span></div>
+                                <div class="card mn-margin-r">> <span>MySQL</span></div>
+                                <div class="card mn-margin-r">> <span>MongoDB</span></div>
                             </li>
                         </ul>
                     </div>
